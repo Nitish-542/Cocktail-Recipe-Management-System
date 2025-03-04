@@ -1,0 +1,662 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CRm3\\CRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\cocktailpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\cocktailpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\cocktailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\cocktailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\interfaces\\icocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\interfaces\\icocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\services\\cocktailservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\services\\cocktailservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\cocktailpage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\cocktailpage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\cocktailpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\cocktailpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\models\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\models\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\cocktailpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\cocktailpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\models\\bartender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\models\\bartender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\models\\cocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\models\\cocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\cocktailpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\cocktailpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\categorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\categorypage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\cocktailpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\cocktailpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\services\\bartenderservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\services\\bartenderservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\interfaces\\ibartenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\interfaces\\ibartenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\bartenderpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\bartenderpage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\categorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\categorypage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\categorypage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\categorypage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\categorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\categorypage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\categorypage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\categorypage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\bartenderpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\bartenderpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\categorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\categorypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\catgorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\catgorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_CRM_5682b38a_480b_4d56_bca7_6de05f155bb9/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\bartenderpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\bartenderpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\bartenderpage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\bartenderpage\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\views\\bartenderpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\views\\bartenderpage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\bartenderpagecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\bartenderpagecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\controllers\\bartendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\controllers\\bartendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\data\\migrations\\20250216230346_cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\data\\migrations\\20250216230346_cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\data\\migrations\\20250216224444_bartender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\data\\migrations\\20250216224444_bartender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|d:\\crm3\\crm\\crm\\data\\migrations\\20250217014220_relations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED84A646-F39D-4F68-9D3D-375F4D435641}|CRM\\CRM.csproj|solutionrelative:crm\\data\\migrations\\20250217014220_relations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cocktail.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Models\\Cocktail.cs",
+              "RelativeDocumentMoniker": "CRM\\Models\\Cocktail.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Models\\Cocktail.cs",
+              "RelativeToolTip": "CRM\\Models\\Cocktail.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:47:18.927Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CRM\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T00:22:16.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CocktailService .cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Services\\CocktailService .cs",
+              "RelativeDocumentMoniker": "CRM\\Services\\CocktailService .cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Services\\CocktailService .cs",
+              "RelativeToolTip": "CRM\\Services\\CocktailService .cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv5wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:53:40.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CocktailPageController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\CocktailPageController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\CocktailPageController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\CocktailPageController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\CocktailPageController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAADwv+UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:55:55.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:45:58.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CocktailPage\\Delete.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Delete.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CocktailPage\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T10:59:42.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CocktailController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\CocktailController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\CocktailController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\CocktailController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\CocktailController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv2gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:40:59.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICocktailService.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Interfaces\\ICocktailService.cs",
+              "RelativeDocumentMoniker": "CRM\\Interfaces\\ICocktailService.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Interfaces\\ICocktailService.cs",
+              "RelativeToolTip": "CRM\\Interfaces\\ICocktailService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:52:59.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CocktailPage\\Details.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Details.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CocktailPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T10:58:38.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "list.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\list.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CocktailPage\\list.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\list.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CocktailPage\\list.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T10:57:28.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bartender.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Models\\Bartender.cs",
+              "RelativeDocumentMoniker": "CRM\\Models\\Bartender.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Models\\Bartender.cs",
+              "RelativeToolTip": "CRM\\Models\\Bartender.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA2wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:35:33.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CRM\\Models\\Category.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Models\\Category.cs",
+              "RelativeToolTip": "CRM\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:40:00.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CocktailPage\\Edit.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Edit.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CocktailPage\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T10:59:01.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CocktailViewModel.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Models\\CocktailViewModel.cs",
+              "RelativeDocumentMoniker": "CRM\\Models\\CocktailViewModel.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Models\\CocktailViewModel.cs",
+              "RelativeToolTip": "CRM\\Models\\CocktailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:27:56.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CategoryPage\\Edit.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Edit.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CategoryPage\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:18:13.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CocktailPage\\Create.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CocktailPage\\Create.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CocktailPage\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T10:59:56.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BartenderService .cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Services\\BartenderService .cs",
+              "RelativeDocumentMoniker": "CRM\\Services\\BartenderService .cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Services\\BartenderService .cs",
+              "RelativeToolTip": "CRM\\Services\\BartenderService .cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:09:16.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBartenderService.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Interfaces\\IBartenderService.cs",
+              "RelativeDocumentMoniker": "CRM\\Interfaces\\IBartenderService.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Interfaces\\IBartenderService.cs",
+              "RelativeToolTip": "CRM\\Interfaces\\IBartenderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:08:57.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\BartenderPage\\Create.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Create.cshtml",
+              "RelativeToolTip": "CRM\\Views\\BartenderPage\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:12:16.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CategoryPage\\Details.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Details.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CategoryPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:17:40.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\List.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CategoryPage\\List.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\List.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CategoryPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:17:26.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CategoryPage\\Create.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Create.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CategoryPage\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:17:59.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\CategoryPage\\Delete.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\CategoryPage\\Delete.cshtml",
+              "RelativeToolTip": "CRM\\Views\\CategoryPage\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:18:26.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "list.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\list.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\BartenderPage\\list.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\list.cshtml",
+              "RelativeToolTip": "CRM\\Views\\BartenderPage\\list.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:12:02.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryPageController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\CategoryPageController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\CategoryPageController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\CategoryPageController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\CategoryPageController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:16:11.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CRM\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Services\\CategoryService.cs",
+              "RelativeToolTip": "CRM\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:15:33.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CatgoryController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\CatgoryController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\CatgoryController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\CatgoryController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\CatgoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:40:57.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CRM\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "CRM\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:15:03.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.Categories.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_CRM_5682b38a_480b_4d56_bca7_6de05f155bb9/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_CRM_5682b38a_480b_4d56_bca7_6de05f155bb9/True/SqlTable/dbo.Categories.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-27T11:33:12.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Program.cs",
+              "RelativeDocumentMoniker": "CRM\\Program.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Program.cs",
+              "RelativeToolTip": "CRM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:48:43.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRM\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:20:08.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\BartenderPage\\Edit.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Edit.cshtml",
+              "RelativeToolTip": "CRM\\Views\\BartenderPage\\Edit.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:14:06.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\BartenderPage\\Delete.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Delete.cshtml",
+              "RelativeToolTip": "CRM\\Views\\BartenderPage\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:12:55.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRM\\Views\\BartenderPage\\Details.cshtml",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Views\\BartenderPage\\Details.cshtml",
+              "RelativeToolTip": "CRM\\Views\\BartenderPage\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T11:12:40.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BartenderPageController .cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\BartenderPageController .cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\BartenderPageController .cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\BartenderPageController .cs",
+              "RelativeToolTip": "CRM\\Controllers\\BartenderPageController .cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:11:27.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BartenderController.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Controllers\\BartenderController.cs",
+              "RelativeDocumentMoniker": "CRM\\Controllers\\BartenderController.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Controllers\\BartenderController.cs",
+              "RelativeToolTip": "CRM\\Controllers\\BartenderController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wD4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:40:52.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250217014220_Relations.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250217014220_Relations.cs",
+              "RelativeDocumentMoniker": "CRM\\Data\\Migrations\\20250217014220_Relations.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250217014220_Relations.cs",
+              "RelativeToolTip": "CRM\\Data\\Migrations\\20250217014220_Relations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:42:20.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250216230346_Cocktail.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250216230346_Cocktail.cs",
+              "RelativeDocumentMoniker": "CRM\\Data\\Migrations\\20250216230346_Cocktail.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250216230346_Cocktail.cs",
+              "RelativeToolTip": "CRM\\Data\\Migrations\\20250216230346_Cocktail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:03:46.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CRM\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CRM\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:44:00.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250216224444_Bartender.cs",
+              "DocumentMoniker": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250216224444_Bartender.cs",
+              "RelativeDocumentMoniker": "CRM\\Data\\Migrations\\20250216224444_Bartender.cs",
+              "ToolTip": "D:\\CRm3\\CRM\\CRM\\Data\\Migrations\\20250216224444_Bartender.cs",
+              "RelativeToolTip": "CRM\\Data\\Migrations\\20250216224444_Bartender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:44:44.381Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

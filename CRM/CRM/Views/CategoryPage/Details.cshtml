@@ -1,0 +1,10 @@
+﻿@model CRM.Models.CategoryDTO
+
+<h1>@Model.CategoryName</h1>
+
+<p><strong>Category Name:</strong> @Model.CategoryName</p>
+
+
+<a href="@Url.Action("Edit", "CategoryPage", new { id = Model.CategoryId })" class="btn btn-warning">Edit</a> |
+<a href="@Url.Action("Delete", "CategoryPage", new { id = Model.CategoryId })" class="btn btn-danger">Delete</a> |
+<a href="@Url.Action("List", "CategoryPage")" class="btn btn-secondary">Back to List</a>

@@ -1,0 +1,40 @@
+﻿@model CRM.Models.BartenderDto
+
+<h1>Edit Bartender</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="BartenderId" />
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DrinksPosted" class="control-label"></label>
+        <input asp-for="DrinksPosted" class="form-control" />
+        <span asp-validation-for="DrinksPosted" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastPosted" class="control-label"></label>
+        <input asp-for="LastPosted" class="form-control" type="date" />
+        <span asp-validation-for="LastPosted" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<a href="@Url.Action("List", "BartenderPage")" class="btn btn-secondary">Back to List</a>

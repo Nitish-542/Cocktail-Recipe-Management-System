@@ -1,0 +1,29 @@
+﻿@model IEnumerable<CRM.Models.CocktailDTO>
+
+<h1>Cocktail List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Drink Name</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cocktail in Model)
+        {
+            <tr>
+                <td>@cocktail.DrinkName</td>
+                <td>@cocktail.CategoryName</td>
+                <td>
+                    <a href="@Url.Action("Details", "CocktailPage", new { id = cocktail.DrinkId })">Details</a> |
+                    <a href="@Url.Action("Edit", "CocktailPage", new { id = cocktail.DrinkId })">Edit</a> |
+                    <a href="@Url.Action("Delete", "CocktailPage", new { id = cocktail.DrinkId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "CocktailPage")" class="btn btn-primary">Create New Cocktail</a>

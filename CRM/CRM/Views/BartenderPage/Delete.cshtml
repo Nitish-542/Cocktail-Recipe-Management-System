@@ -1,0 +1,10 @@
+﻿@model CRM.Models.BartenderDto
+
+<h1>Delete Bartender</h1>
+
+<p>Are you sure you want to delete bartender <strong>@Model.FirstName @Model.LastName</strong>?</p>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a href="@Url.Action("List", "BartenderPage")" class="btn btn-secondary">Cancel</a>
+</form>

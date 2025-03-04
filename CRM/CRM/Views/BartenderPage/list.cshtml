@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CRM.Models.BartenderDto>
+
+<h1>Bartender List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Drinks Posted</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bartender in Model)
+        {
+            <tr>
+                <td>@bartender.FirstName</td>
+                <td>@bartender.LastName</td>
+                <td>@bartender.Email</td>
+                <td>@bartender.DrinksPosted</td>
+                <td>
+                    <a href="@Url.Action("Details", "BartenderPage", new { id = bartender.BartenderId })">Details</a> |
+                    <a href="@Url.Action("Edit", "BartenderPage", new { id = bartender.BartenderId })">Edit</a> |
+                    <a href="@Url.Action("Delete", "BartenderPage", new { id = bartender.BartenderId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "BartenderPage")" class="btn btn-primary">Create New Bartender</a>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<CRM.Models.CategoryDTO>
+
+<h1>Category List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>
+                    <!-- Action Links: Details, Edit, Delete -->
+                    <a href="@Url.Action("Details", "CategoryPage", new { id = category.CategoryId })">Details</a> |
+                    <a href="@Url.Action("Edit", "CategoryPage", new { id = category.CategoryId })">Edit</a> |
+                    <a href="@Url.Action("Delete", "CategoryPage", new { id = category.CategoryId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Button to create a new category -->
+<a href="@Url.Action("Create", "CategoryPage")" class="btn btn-primary">Create New Category</a>

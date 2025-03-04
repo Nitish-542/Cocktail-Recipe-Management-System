@@ -1,0 +1,33 @@
+﻿@model CRM.ViewModels.CocktailViewModel
+
+<h1>@Model.DrinkName Details</h1>
+
+<div>
+    <strong>Drink Name:</strong> @Model.DrinkName
+</div>
+<div>
+    <strong>Drink Recipe:</strong> @Model.DrinkRecipe
+</div>
+<div>
+    <strong>Liquor Ingredients:</strong> @Model.LiqIns
+</div>
+<div>
+    <strong>Mix Ingredients:</strong> @Model.MixIns
+</div>
+<div>
+    <strong>Posted On:</strong> @Model.DatePosted.ToString("yyyy-MM-dd")
+</div>
+
+<!-- Display Bartender Name -->
+<div>
+    <strong>Bartender:</strong>
+    @Model.Bartenders.FirstOrDefault(b => b.BartenderId == Model.BartenderId)?.FirstName @Model.Bartenders.FirstOrDefault(b => b.BartenderId == Model.BartenderId)?.LastName
+</div>
+
+<!-- Display Category Name -->
+<div>
+    <strong>Category:</strong>
+    @Model.Categories.FirstOrDefault(c => c.CategoryId == Model.CategoryId)?.CategoryName
+</div>
+
+<a href="@Url.Action("List", "CocktailPage")">Back to List</a>

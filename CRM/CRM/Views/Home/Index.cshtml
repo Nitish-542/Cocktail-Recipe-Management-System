@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Cocktail Recipe Management";
+}
+
+<!-- Main Container -->
+<div class="container my-5">
+
+    <!-- Welcome Section with Background Image -->
+    <div class="jumbotron" style="background-image: url('https://example.com/your-cocktail-background.jpg'); background-size: cover; background-position: center; color: white; padding: 60px; border-radius: 15px;">
+        <h1 class="display-4 font-weight-bold text-dark">Welcome to Cocktail Recipe Management!</h1>
+        <p class="lead text-dark">Discover new cocktails or create your own!</p>
+        <!-- Centered Buttons -->
+        <div class="d-flex justify-content-center mt-4">
+            <a href="@Url.Action("List", "CocktailPage")" class="btn btn-lg btn-custom my-3 mx-3">Browse Cocktails</a>
+            <a href="@Url.Action("Create", "CocktailPage")" class="btn btn-lg btn-custom my-3 mx-3">Create Your Cocktail</a>
+        </div>
+    </div>
+
+    <!-- Core Features Section -->
+    <div class="my-5">
+        <h3 class="text-center mb-4 text-muted font-weight-bold">Core Features</h3>
+        <div class="row text-center">
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Explore Cocktails</h4>
+                        <p class="card-text">Browse through a wide range of cocktail recipes for every occasion.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Create Your Own</h4>
+                        <p class="card-text">Add your own recipes and share your creativity with the world.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-light mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Discover Bartenders</h4>
+                        <p class="card-text">Learn from expert bartenders and their signature cocktails.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="my-5">
+        <h3 class="text-center mb-4 text-muted font-weight-bold">How It Works</h3>
+        <div class="row text-center">
+            <!-- Step 1 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">1</div>
+                    <h5 class="font-weight-bold">Browse Cocktail Recipes</h5>
+                    <p>Explore our collection of amazing cocktail recipes, from classics to unique creations.</p>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">2</div>
+                    <h5 class="font-weight-bold">Create Your Cocktail</h5>
+                    <p>Create your own cocktail recipe and share it with others.</p>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="col-md-4">
+                <div class="step-box">
+                    <div class="step-number">3</div>
+                    <h5 class="font-weight-bold">Share & Enjoy</h5>
+                    <p>Share your creations with the community and enjoy a drink with friends!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Custom Styling -->
+<style>
+    /* Styling for the Jumbotron (Welcome Section) */
+    .jumbotron {
+        border-radius: 15px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .jumbotron h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align-last: center;
+    }
+
+    .jumbotron .btn {
+        font-weight: bold;
+        padding: 1rem 2rem;
+        border-radius: 0.375rem;
+    }
+
+    .text-dark {
+        color: #333 !important;
+        text-align: center;
+    }
+
+    .card {
+        margin: 15px 0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .step-box {
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .step-number {
+        background-color: #ff6347;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto 15px;
+        line-height: 50px;
+    }
+
+    .step-box h5 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .step-box p {
+        color: #555;
+    }
+
+    footer {
+        font-size: 0.875rem;
+        margin-top: 30px;
+    }
+
+    .btn-custom {
+        background-color: #ff6347;
+        color: white;
+        font-weight: bold;
+        border-radius: 0.375rem;
+        transition: all 0.3s ease;
+    }

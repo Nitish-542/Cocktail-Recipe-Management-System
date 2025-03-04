@@ -1,0 +1,65 @@
+﻿@model CRM.ViewModels.CocktailViewModel
+
+<h1>Edit Cocktail</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="DrinkId" />
+
+    <div class="form-group">
+        <label asp-for="DrinkName" class="control-label"></label>
+        <input asp-for="DrinkName" class="form-control" />
+        <span asp-validation-for="DrinkName" class="text-danger"></span>
+    </div>
+
+    <!-- Category Dropdown -->
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label"></label>
+        <select asp-for="CategoryId" class="form-control"
+                asp-items="@(Model.Categories != null && Model.Categories.Any()
+            ? new SelectList(Model.Categories, "CategoryId", "CategoryName", Model.CategoryId)
+            : new SelectList(new List<SelectListItem>()))">
+            <option value="">-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <!-- Bartender Dropdown -->
+    <div class="form-group">
+        <label asp-for="BartenderId" class="control-label"></label>
+        <select asp-for="BartenderId" class="form-control"
+                asp-items="@(Model.Bartenders != null && Model.Bartenders.Any()
+            ? new SelectList(Model.Bartenders, "BartenderId", "FullName", Model.BartenderId)
+            : new SelectList(new List<SelectListItem>()))">
+            <option value="">-- Select Bartender --</option>
+        </select>
+        <span asp-validation-for="BartenderId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LiqIns" class="control-label"></label>
+        <input asp-for="LiqIns" class="form-control" />
+        <span asp-validation-for="LiqIns" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MixIns" class="control-label"></label>
+        <input asp-for="MixIns" class="form-control" />
+        <span asp-validation-for="MixIns" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DrinkRecipe" class="control-label"></label>
+        <textarea asp-for="DrinkRecipe" class="form-control"></textarea>
+        <span asp-validation-for="DrinkRecipe" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DatePosted" class="control-label"></label>
+        <input asp-for="DatePosted" class="form-control" type="date" />
+        <span asp-validation-for="DatePosted" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<a href="@Url.Action("List", "CocktailPage")" class="btn btn-secondary">Back to List</a>

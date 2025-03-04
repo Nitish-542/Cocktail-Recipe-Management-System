@@ -1,0 +1,11 @@
+﻿@model CRM.Models.BartenderDto
+
+<h1>@Model.FirstName @Model.LastName</h1>
+
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Drinks Posted:</strong> @Model.DrinksPosted</p>
+<p><strong>Last Posted:</strong> @Model.LastPosted</p>
+
+<a href="@Url.Action("Edit", "BartenderPage", new { id = Model.BartenderId })" class="btn btn-warning">Edit</a> |
+<a href="@Url.Action("Delete", "BartenderPage", new { id = Model.BartenderId })" class="btn btn-danger">Delete</a> |
+<a href="@Url.Action("List", "BartenderPage")" class="btn btn-secondary">Back to List</a>
